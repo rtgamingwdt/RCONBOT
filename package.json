@@ -1,0 +1,18 @@
+{
+  "name": "RCONBOT",
+  "version": "1.0.0",
+  "description": "A Discord Bot That Allows You To Execute Minecraft Commands From Discord.",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "env": "^0.0.2",
+    "rcon-client": "^4.2.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
