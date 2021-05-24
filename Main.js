@@ -6,11 +6,11 @@ const {
 const TextFormat = require('chalk');
 
 const {
-	Token
+	TOKEN
 } = process.env;
 
 const {
-	Prefix
+	PREFIX
 } = process.env;
 
 const Host = process.env.IP;
@@ -48,3 +48,5 @@ Client.on("message", async msg => {
 		rcon.end();
 	}
 });
+
+Client.login(TOKEN)
